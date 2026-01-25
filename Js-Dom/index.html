@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <title>Javaascript DOM</title>
+  <body class="bg-gray-200">
+<section class="h-screen flex justify-center items-center ">
+    <div class="bg-white  w-96 space-y-3 rounded-md ">
+        <img src="./product.jpg" alt="product" class="w-full rounded-t-md">
+        <div class="p-3">
+<h1 class="text-2xl font-semibold">Headphone</h1>
+            <div class="flex justify-between items-center text-gray-600 text-xl font-medium   mb-5">
+              <!-- <h1 id="price">Price: $500</h1> -->
+              <h1 id="price"></h1>
+              <!-- <h1 id="totalPrice">Total Price: $500 </h1> -->
+              <h1 id="totalPrice"> </h1>
+
+            </div>
+           <div class="flex gap-3 justify-between">
+               <button id="addToCart" class="w-full bg-teal-800 hover:bg-teal-900 text-white p-3 rounded-md">Add to Cart</button>
+              <button id="reset" class="w-full bg-teal-800 hover:bg-teal-900 text-white p-3 rounded-md">Reset</button>
+           </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- JavaScript -->
+<script src="./script.js"></script>
+
+</body>
+</html>
